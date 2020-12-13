@@ -100,5 +100,36 @@ public class array1 {
 
 
         System.out.println(name + " you have been selected to " + house + "!");
+
+        // Part 3: Create a Histogram
+
+        // Create an integer array ‘histogramArray’ of length 5.
+
+        int[] histogramArray = {0, 0, 0, 0, 0};
+
+        // Create a loop to generate 100 random numbers from 0 to 50
+
+        // Store the number of times each random number occurs in the
+        // histogramArray split up in series of 10
+
+        int rand;
+        for (int i = 0; i < 100; i++) {
+            rand = r.nextInt(50);
+            if (rand <= 9) { histogramArray[0]++; }
+            else if (rand <= 19) { histogramArray[1]++; }
+            else if (rand <= 29) { histogramArray[2]++; }
+            else if (rand <= 39) { histogramArray[3]++; }
+            else { histogramArray[4]++; }
+        }
+
+        // Print out the total number of times a number fell in that range.
+
+        for (int i = 0; i < histogramArray.length; i++) {
+            System.out.print(10*i + "-" + (10*i+9) + ": ");
+            for (int j = 0; j < histogramArray[i]; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
     }
 }
