@@ -3,8 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/APCSA.iml" filepath="$PROJECT_DIR$/APCSA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/APProblems/APProblems.iml" filepath="$PROJECT_DIR$/APProblems/APProblems.iml" />
       <module fileurl="file://$PROJECT_DIR$/Unit1/Unit1.iml" filepath="$PROJECT_DIR$/Unit1/Unit1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Unit10/Unit10.iml" filepath="$PROJECT_DIR$/Unit10/Unit10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Unit11/Unit11.iml" filepath="$PROJECT_DIR$/Unit11/Unit11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Unit12/Unit12.iml" filepath="$PROJECT_DIR$/Unit12/Unit12.iml" />
       <module fileurl="file://$PROJECT_DIR$/Unit2/Unit2.iml" filepath="$PROJECT_DIR$/Unit2/Unit2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Unit3/Unit3.iml" filepath="$PROJECT_DIR$/Unit3/Unit3.iml" />
       <module fileurl="file://$PROJECT_DIR$/Unit4/Unit4.iml" filepath="$PROJECT_DIR$/Unit4/Unit4.iml" />
